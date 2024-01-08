@@ -51,15 +51,14 @@
         "STRIP": "llvm-strip",
         "LDGOLD": "aarch64-linux-gnu-ld.gold",
         "LLVM_AR": "llvm-ar",
-        "LLVM_DIS": "llvm-dis",
-        "CONFIG_THINLTO": ""
+        "LLVM_DIS": "llvm-dis"
       }
     },
     "AnyKernel3": {
       "use": true,
       "release": true
     },
-    "enableKernelSU": true,
-    "enableLXC": true
+    "enableKernelSU": false,
+    "enableLXC": false
   }
 ]
