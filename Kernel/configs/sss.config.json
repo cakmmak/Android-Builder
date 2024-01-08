@@ -2,15 +2,15 @@
   {
     "kernelSource": {
       "name": "DENEME",
-      "repo": "https://github.com/ArrowOS-Devices/android_kernel_xiaomi_ginkgo",
-      "branch": "arrow-13.0",
+      "repo": "https://github.com/kutemeikito/android_kernel_xiaomi_ginkgo/tree/Thirteen",
+      "branch": "Thirteen",
       "device": "ginkgo",
-      "defconfig": "ginkgo-stock_defconfig"
+      "defconfig": "ginkgo-perf_defconfig"
     },
     "toolchains": [
       {
-        "repo": "https://github.com/LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
-        "branch": "lineage-20.0",
+        "repo": "https://gitlab.com/moehacker/clang-r487747.git",
+        "branch": "main",
         "name": "clang",
         "binaryEnv": [
           "bin"
